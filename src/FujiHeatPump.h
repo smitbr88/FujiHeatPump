@@ -144,8 +144,8 @@ enum class FujiMessageType : byte {
 enum class FujiAddress : byte {
   START       = 0,
   UNIT        = 1,
-  PRIMARY     = 32,
-  SECONDARY   = 33,
+  PRIMARY     = 15,
+  SECONDARY   = 14,
 };
 
 enum class FujiFanMode : byte {
